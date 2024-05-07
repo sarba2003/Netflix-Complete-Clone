@@ -1,0 +1,90 @@
+.scrolling {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .card {
+        display: inline-block;
+        width: 15%;
+        border: 0px;
+    }
+}
+
+.arrow-left {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 40%;
+    left: 0;
+    z-index: 1;
+    text-decoration: none;  
+    padding-left: 0.5rem;
+    color: #fff;
+}
+
+.arrow-left:hover {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(9,9,121,0) 100%);
+    width: 10rem;
+    height: 15.5rem;
+    top: 0;
+    padding-top: 9%;
+    padding-left: 0.5rem;
+}
+
+.arrow-right {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 40%;
+    right: 0px;
+    z-index: 1;
+    text-decoration: none;  
+    padding-left: 7px;
+    color: #fff;
+}
+
+.arrow-right:hover {
+    background: linear-gradient(270deg, rgb(0, 0, 0) 10%, rgba(9,9,121,0) 100%);
+    width: 10rem;
+    height: 15.5rem;
+    top: 0;
+    padding-top: 9%;
+    padding-left: 12%;
+}
+
+.cover {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/login/login-the-crown_2-1500x1000.jpg) -81% -4%;
+    height: 100vh;
+}
+
+/* Page - 02 */
+.content_banner{
+    top: 30px !important; 
+    background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(255,255,255,0) 80%);
+}
+
+.height_60, .content_banner {
+    height: 70vh;
+}
+
+.img{
+    left: 150px;
+    position: relative;
+    width: 70%;
+}
+
+/* Page - 03 */
+.playground {
+    height: 70vh;
+
+}
+
+.amru {
+    height: 100%;
+    width: 100%;
+}
